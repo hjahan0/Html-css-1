@@ -115,3 +115,25 @@ body{
 .rectangle-button:hover{
     background-color: #3d4246;
 }
+@media (max-width: 1440px) {
+    body {
+        background-color: var(--color-white);
+    }
+    .desktop-1440 {
+        width: 100%;
+        height: auto;
+        padding: 40px 20px;
+        justify-content: center;
+    }
+    .frame-15 {
+        width: 100%;
+        max-width: 1180px;
+        height: auto;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 40px;
+    }
+    .frame-12 {
+        height: auto;
+    }
+}
