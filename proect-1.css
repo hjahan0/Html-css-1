@@ -1,0 +1,123 @@
+:root {
+    /*definition of color codes and fots*/
+    --font-headig: 'Crimson Text', serif;
+    --font-body: 'Work Sans', sans-serif;
+    --color-dark-100: #212529;
+    --color-dark-50: rgba(33, 37, 41, 0.50);
+    --color-white: #ffffff;
+}
+
+*{
+    /*page styles*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #e5e5e5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.desktop-1440{
+    /*desktop-1440 frame*/
+    width: 1440px;
+    height: 830px;
+    background-color: var(--color-white);
+    display: flex;
+    align-items: center;
+    padding-left: 130px;
+    padding-right: 130px;
+    position: relative;
+}
+
+.frame-15{
+    /*main container*/
+    width: 1180px;
+    height: 431.43px;
+    /*top: 199px;
+    left: 130px;*/
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--color-white);
+}
+
+.illustration-group{
+    /*image*/
+    width: 600px;
+    height: 431.43px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.illustration-group .vector-art{ 
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.frame-12{
+    /*text box*/
+    width: 470px;
+    height: 255px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.heading-2{
+    width: 462px;
+    /*height: 100px;*/
+    font-family: var(--font-headig);
+    font-size: 40px;
+    font-weight: 700;
+    color: var(--color-dark-100);
+    line-height: 125%;
+    letter-spacing: 0px;
+}
+
+.body-regular{
+    width: 470px;
+    /*height: 75px;*/
+    font-family: var(--font-body);
+    font-size: 15px;
+    font-weight: 400;
+    color: var(--color-dark-50);
+    line-height: 125%;
+    letter-spacing: 0px;
+    margin-bottom: auto;
+}
+
+.primary-button-rectangle{
+    width: 170px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    background-color: var(--color-dark-100);
+    text-decoration: none;
+    /*top: 13px;
+    left: 29.5px;*/
+    border-radius: 5px;
+    transition: background-color 0.2s ease;
+}
+
+.button-text{
+    color: var(--color-white);
+    font-family: var(--font-body);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 125%;
+}
+
+.rectangle-button:hover{
+    background-color: #3d4246;
+}
